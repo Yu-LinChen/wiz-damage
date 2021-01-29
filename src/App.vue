@@ -70,7 +70,7 @@
           v-for="(enemy, idx) in enemys"
           :key="'enemy' + idx"
         >
-          <h4 class="ui dividing header">敵人 {{ idx + 1 }} </h4>
+          <h4 class="ui dividing header"><input placeholder="敵人 {{ idx + 1 }} "></h4>
           <div class="five fields">
             <div class="field">
               <label>屬性 (必填)</label>
