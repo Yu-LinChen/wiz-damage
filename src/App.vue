@@ -289,7 +289,7 @@
         </h2>
 
         <div class="field">
-          <label>傷害倍率</label>
+          <label>隨機值</label>
           <select
             class="ui search dropdown"
             v-model.number="multiplyDamge"
